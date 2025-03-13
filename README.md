@@ -22,11 +22,11 @@ echo $mypassword
 
 下载Telnet解锁配置文件：
 
-wget https://github.com/Daniel-Hwang/RAX3000Me/tree/main/20241111-RAX3000Me_Step12-TelnetUboot/RAX3000M_XR30_cfg-telnet-20240117.conf
+wget https://github.com/Daniel-Hwang/RAX3000Me/raw/refs/heads/release-v1.0.0/20241111-RAX3000Me_Step12-TelnetUboot/RAX3000M_XR30_cfg-telnet-20240117.conf
 
 国内镜像备用地址：
 
-wget https://github.akams.cn/https://...elnet-20240117.conf
+wget https://github.akams.cn/https://github.com/Daniel-Hwang/RAX3000Me/raw/refs/heads/release-v1.0.0/20241111-RAX3000Me_Step12-TelnetUboot/RAX3000M_XR30_cfg-telnet-20240117.conf
 
 加密并导入配置文件：
 
