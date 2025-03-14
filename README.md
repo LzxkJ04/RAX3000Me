@@ -6,9 +6,13 @@ RAX3000Me路由器开发与固件刷入详细教程
 
 一、准备工作
 
-1.需要使用linux虚拟机来生成解Telnet文件，推荐使用Ubuntu虚拟机，确保OpenSSL版本大于3.0（支持aes-256-cbc -pbkdf2）。
+1.2025.3.13版本realese-v1.0.0,说明需要使用linux虚拟机来生成解Telnet文件，推荐使用Ubuntu虚拟机，确保OpenSSL版本大于3.0（支持aes-256-cbc -pbkdf2）。
+这一步已经在2025.3.14版本上更新windows上安装openssl，如下文件
+![image](https://github.com/user-attachments/assets/35643fd4-8176-4e27-b678-2fcf4b462475)
+直接安装，下一步下一步下一步，全部默认安装finish完成，搞定！
 
-2.下载所需文件：https://www.123865.com/s/9JnLTd-18jhd?提取码:OI7L
+2.下载所需文件：https://www.123865.com/s/9JnLTd-18jhd?提取码:OI7L，或者直接下载release-v1.0.0
+补充支持windows的生成解密conf的bat和ps1文件在https://github.com/Daniel-Hwang/RAX3000Me/tree/main/20241111-RAX3000Me_Step12-TelnetUboot
 
 二、生成加密配置文件
 
@@ -31,7 +35,12 @@ wget https://github.com/Daniel-Hwang/RAX3000Me/raw/refs/heads/release-v1.0.0/202
 
 openssl aes-256-cbc -pbkdf2 -k "$mypassword" -in RAX3000M_XR30_cfg-telnet-20240117.conf -out cfg_import_config_file_new.conf
 
-将生成的cfg_import_config_file_new.conf文件上传到路由器后台的配置导入页面，重启完成Telnet解锁。
+
+20250314重要更新：此1-4步，在2025.3.14版本上，安装完windows的openssl后，直接点击generate_config.bat，输入SN码后，直接生成cfg_import_config_file_new.conf。
+![image](https://github.com/user-attachments/assets/813d030a-ef0c-4a65-8701-30d981e2b97c)
+
+
+将生成的cfg_import_config_file_new.conf文件上传到路由器后台的配置导入页面，重启完成Telnet解锁。有bug可以issus我
 
 三、通过Telnet更新Uboot
 
