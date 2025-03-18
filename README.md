@@ -41,7 +41,9 @@ openssl aes-256-cbc -pbkdf2 -k "$mypassword" -in RAX3000M_XR30_cfg-telnet-202401
 ![image](https://github.com/user-attachments/assets/813d030a-ef0c-4a65-8701-30d981e2b97c)
 
 ***20250318重要更新：20250314更新修正，修正window中telnet解密的前13个字符，去掉后再返回正确的mypassword，用于之后的生成加密配置文件。主要是对powershell文件进行修改***
+
 ***20250319重要更新：ADD usbutils RNDIS USB CDC and so on for USB 3.0 network drivers and storage***
+
 ***file: RAX3000Me-250316-sysupgrade.bin for update.***
 
 
