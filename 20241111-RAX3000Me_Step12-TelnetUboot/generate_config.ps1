@@ -33,9 +33,18 @@ function Generate-Password {
     )
     $salt = "aV6dW8bD"
     try {
-        $mypassword = & "C:\Program Files\OpenSSL-Win64\bin\openssl.exe" passwd -1 -salt $salt $SN
+        $mypassword = & "C:\Program Files\OpenSSL-Win64\bin\openssl.exe" passwd -1 -salt $salt "$SN"
         Log-Message "Password generated successfully."
-        return $mypassword
+
+        # È¥µôÇ° 13 ¸ö×Ö·û
+        if ($mypassword.Length -gt 13) {
+            $mypassword = $mypassword.Substring(13)
+        } else {
+            Log-Message "Password is too short to remove 13 characters!"
+            exit 1
+        }
+
+        return $mypassword.Trim()
     } catch {
         Log-Message "Failed to generate password! Error: $_"
         exit 1
