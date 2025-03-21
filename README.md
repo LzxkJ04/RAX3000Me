@@ -1,5 +1,13 @@
 欢迎支持一键三连，点颗星星~谢谢呢
-"# RAX3000Me" 
+
+***20250321重要更新：add new wonderful drivers and firmware for brigding eth2(RNDIS-CDC) to lan***
+
+***20250319重要更新：ADD usbutils RNDIS USB CDC and so on for USB 3.0 network drivers and storage***
+
+***file: RAX3000Me-250316-sysupgrade.bin for update.***
+
+***20250318重要更新：20250314更新修正，修正window中telnet解密的前13个字符，去掉后再返回正确的mypassword，用于之后的生成加密配置文件。主要是对powershell文件进行修改***
+
 RAX3000Me路由器开发与固件刷入详细教程
 
 软件版本号：RAX3000Me-MTK.ZD.03
@@ -40,12 +48,7 @@ openssl aes-256-cbc -pbkdf2 -k "$mypassword" -in RAX3000M_XR30_cfg-telnet-202401
 20250314重要更新：此1-4步，在2025.3.14版本上，安装完windows的openssl后，直接点击generate_config.bat，输入SN码后，直接生成cfg_import_config_file_new.conf。
 ![image](https://github.com/user-attachments/assets/813d030a-ef0c-4a65-8701-30d981e2b97c)
 
-***20250318重要更新：20250314更新修正，修正window中telnet解密的前13个字符，去掉后再返回正确的mypassword，用于之后的生成加密配置文件。主要是对powershell文件进行修改***
-
-***20250319重要更新：ADD usbutils RNDIS USB CDC and so on for USB 3.0 network drivers and storage***
-
-***file: RAX3000Me-250316-sysupgrade.bin for update.***
-
+***20250321重要更新：add new wonderful drivers and firmware for brigding eth2(RNDIS-CDC) to lan***
 
 将生成的cfg_import_config_file_new.conf文件上传到路由器后台的配置导入页面，重启完成Telnet解锁。有bug可以issus我
 
