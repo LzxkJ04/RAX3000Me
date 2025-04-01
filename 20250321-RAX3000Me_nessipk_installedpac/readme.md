@@ -1,4 +1,4 @@
-***请使用软件包时注意！！！！！此页面中的ipk包是kernel=5.15.162版本的，相对应的factory和sysupgrade文件为0316版或0318版！！！***
+***20250401重要更新：20250321-RAX3000Me_nessipk_installedpac文件夹中有必要的软件包（对应immortalwrt-23.05.3），用于玩家从非我提供的bin刷机包刷机，请使用软件包时注意！！！！！此页面中的ipk包是kernel=5.15.162版本的，相对应的factory和sysupgrade文件为0318版！！！***
 
 ***这些ipk包不支持任何factory.itb和sysupgrade.itb的openwrt刷机包！！！请对应kernel进行安装软件包，谢谢！！！***
 
