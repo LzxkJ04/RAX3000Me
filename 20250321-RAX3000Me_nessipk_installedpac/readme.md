@@ -1,3 +1,7 @@
+***请使用软件包时注意！！！！！此页面中的ipk包是kernel=5.15.162版本的，相对应的factory和sysupgrade文件为0316版或0318版！！！***
+
+***这些ipk包不支持任何factory.itb和sysupgrade.itb的openwrt刷机包！！！请对应kernel进行安装软件包，谢谢！！！***
+
 ***20250322 ADD dependency kmod-mii first to install and then the kmod-usb-net -> kmod-usb-cdc-ether -> kmod-usb-net-rndis***
 
 因为有依赖问题，首次安装时，如果不想给设备opkg update以及无法可能的翻墙修改清华或上交源，那么请使用本ipk库
