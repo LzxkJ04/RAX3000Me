@@ -17,6 +17,11 @@ RAX3000Me路由器开发与固件刷入详细教程
 软件版本号：RAX3000Me-MTK.ZD.03
 生产日期：20241111
 
+**闪存型号FM25S01A**
+复旦微FUDANmicro
+![image](https://github.com/user-attachments/assets/46e4f646-953f-4275-9e8a-c9b714ef617c)
+
+
 一、准备工作
 
 1.2025.3.13版本realese-v1.0.0,说明需要使用linux虚拟机来生成解Telnet文件，推荐使用Ubuntu虚拟机，确保OpenSSL版本大于3.0（支持aes-256-cbc -pbkdf2）。
@@ -85,6 +90,9 @@ mtd write /tmp/mt7981_cmcc_rax3000m-fip-fixed-parts.bin FIP
 用曲别针或者取卡针按住路由器RESET按钮，插电后约10秒，指示灯变色（蓝色或绿色，有些RAX路由器是绿色，可能是硬件的问题？）后松开。电脑网线连接路由器LAN口。
 
 在浏览器中访问192.168.1.1，选择刷入20250313_RAX3000Me-factory.bin固件，等待重启。
+
+![image](https://github.com/user-attachments/assets/6fc9b8d3-db89-4123-8c4b-969e75234d2b)
+（注意uboot页面中刷入factory.bin文件和openwrt页面中的升级sysupgrade.bin文件页面不同）
 
 完成刷入并重启后，电脑改为自动获取IP，浏览器访问192.168.5.1，在升级界面继续刷入20250313_RAX3000Me-sysupgrade.bin固件。
 
