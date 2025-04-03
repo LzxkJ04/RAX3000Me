@@ -89,15 +89,18 @@ mtd write /tmp/mt7981_cmcc_rax3000m-fip-fixed-parts.bin FIP
 
 用曲别针或者取卡针按住路由器RESET按钮，插电后约10秒，指示灯变色（蓝色或绿色，有些RAX路由器是绿色，可能是硬件的问题？）后松开。电脑网线连接路由器LAN口。
 
-在浏览器中访问192.168.1.1，选择刷入20250313_RAX3000Me-factory.bin固件，等待重启。
+在浏览器中访问192.168.1.1，选择刷入20250318_RAX3000Me-HY-factory.bin固件，等待重启。
 
 ![image](https://github.com/user-attachments/assets/6fc9b8d3-db89-4123-8c4b-969e75234d2b)
 （注意uboot页面中刷入factory.bin文件和openwrt页面中的升级sysupgrade.bin文件页面不同）
 
-完成刷入并重启后，电脑改为自动获取IP，浏览器访问192.168.5.1，在升级界面继续刷入20250313_RAX3000Me-sysupgrade.bin固件。
+完成刷入并重启后，电脑改为自动获取IP，浏览器访问192.168.1.1(依照你所刷的固件和电脑IP网段而定)，在升级界面继续刷入20250318_RAX3000Me-HY-sysupgrade.bin固件。
 
 至此，OpenWrt固件成功刷入RAX3000Me路由器。
 
-访问192.168.5.1开始愉快的immortal openwrt玩耍吧！
+**如果继续刷入RNDIS相关驱动，请参见文件夹20250321-RAX3000Me_nessipk_installedpac文件夹中readme**
+![image](https://github.com/user-attachments/assets/63cfd93d-2b10-4dc1-9bfa-0dfcfc2475d0)
+
+访问192.168.1.1开始愉快的immortal openwrt玩耍吧！
 
 现在可以支持中兴F50，飞猫U20的type c转网口，网线连接RAX3000Me的WAN，跑满5G速度；或者使用RAX中继U20，也是稳定跑满，甚至比中兴飞猫的还要好一点点。
