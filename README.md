@@ -92,7 +92,8 @@ mtd write /tmp/mt7981_cmcc_rax3000m-fip-fixed-parts.bin FIP
 
 在浏览器中访问192.168.1.1，选择刷入20250318_RAX3000Me-HY-factory.bin固件，等待重启。
 
-![image](https://github.com/user-attachments/assets/6fc9b8d3-db89-4123-8c4b-969e75234d2b)
+![9f8da7bd8a0c157bdebcfa92bfc8816](https://github.com/user-attachments/assets/196e4713-b667-4b98-b1e3-e1de16c8bf07)
+
 （注意uboot页面中刷入factory.bin文件和openwrt页面中的升级sysupgrade.bin文件页面不同）
 
 完成刷入并重启后，电脑改为自动获取IP，浏览器访问192.168.1.1(依照你所刷的固件和电脑IP网段而定)，在升级界面继续刷入20250318_RAX3000Me-HY-sysupgrade.bin固件。
