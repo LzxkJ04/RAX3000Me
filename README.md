@@ -1,4 +1,4 @@
-<h1 align="center">**本仓库为[RAX3000Me](https://github.com/Daniel-Hwang/RAX3000Me)**的第三方个人备份**</h1>
+<h1 align="center">**本仓库为[RAX3000Me](https://github.com/Daniel-Hwang/RAX3000Me) 的第三方个人备份</h1>
 
 欢迎支持一键三连，点颗星星~谢谢呢
 
