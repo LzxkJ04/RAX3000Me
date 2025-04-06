@@ -101,7 +101,8 @@ mtd write /tmp/mt7981_cmcc_rax3000m-fip-fixed-parts.bin FIP
 至此，OpenWrt固件成功刷入RAX3000Me路由器。
 
 **如果继续刷入RNDIS相关驱动，请参见文件夹20250321-RAX3000Me_nessipk_installedpac文件夹中readme**
-![image](https://github.com/user-attachments/assets/63cfd93d-2b10-4dc1-9bfa-0dfcfc2475d0)
+![PixPin_2025-04-07_02-55-53](https://github.com/user-attachments/assets/4bb514d6-325d-47fc-8073-1745f2ebd2a3)
+
 
 访问192.168.1.1开始愉快的immortal openwrt玩耍吧！
 
