@@ -30,7 +30,7 @@ https://github.com/LzxkJ04/RAX3000Me/tree/main/20241111-RAX3000Me_Step12-TelnetU
 直接安装，下一步下一步下一步，全部默认安装finish完成，搞定！
 
 2.下载所需文件：https://www.123912.com/s/20zrVv-fFewh  提取码: FR9a，或者直接下载[release-v1.0.0](https://github.com/LzxkJ04/RAX3000Me/releases/tag/release-v1.0.0)
-补充支持windows的生成解密conf的bat和ps1文件在https://github.com/Daniel-Hwang/RAX3000Me/tree/main/20241111-RAX3000Me_Step12-TelnetUboot
+补充支持windows的生成解密conf的bat和ps1文件在https://github.com/LzxkJ04/RAX3000Me/tree/main/20241111-RAX3000Me_Step12-TelnetUboot
 
 二、生成加密配置文件
 
