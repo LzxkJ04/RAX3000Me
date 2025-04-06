@@ -19,14 +19,15 @@ RAX3000Me路由器开发与固件刷入详细教程
 
 **闪存型号FM25S01A**
 复旦微FUDANmicro
-![image](https://github.com/user-attachments/assets/46e4f646-953f-4275-9e8a-c9b714ef617c)
+![3051d795bd0c28685852e10b3dc4612](https://github.com/user-attachments/assets/4c03fd99-c6d7-4fcb-ae0f-7cc5963706c8)
 
 
 一、准备工作
-
 1.2025.3.13版本realese-v1.0.0,说明需要使用linux虚拟机来生成解Telnet文件，推荐使用Ubuntu虚拟机，确保OpenSSL版本大于3.0（支持aes-256-cbc -pbkdf2）。
 这一步已经在2025.3.14版本上更新windows上安装openssl，如下文件
 https://github.com/LzxkJ04/RAX3000Me/tree/main/20241111-RAX3000Me_Step12-TelnetUboot
+![78acf361160eb14c6722ef95d386219](https://github.com/user-attachments/assets/d2a71ddd-bc49-4baf-a197-8eacc4500b57)
+
 直接安装，下一步下一步下一步，全部默认安装finish完成，搞定！
 
 2.下载所需文件：https://www.123912.com/s/20zrVv-fFewh  提取码: FR9a，或者直接下载[release-v1.0.0](https://github.com/LzxkJ04/RAX3000Me/releases/tag/release-v1.0.0)
