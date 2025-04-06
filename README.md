@@ -47,7 +47,7 @@ echo $mypassword
 
 3.下载Telnet解锁配置文件：
 
-wget https://github.com/Daniel-Hwang/RAX3000M/raw/refs/heads/release-v1.0.0/20241111-RAX3000Me_Step12-TelnetUboot/RAX3000M_XR30_cfg-telnet-20240117.conf
+wget https://github.com/LzxkJ04/RAX3000Me/raw/refs/heads/release-v1.0.0/20241111-RAX3000Me_Step12-TelnetUboot/RAX3000M_XR30_cfg-telnet-20240117.conf
 
 4.加密并导入配置文件：
 
